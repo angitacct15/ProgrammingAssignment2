@@ -43,7 +43,7 @@ makeCacheMatrix <- function(input_matrix = matrix()) {
 
 ## takes a matrix as input. Calculates an inverse and store it. 
 ## if the inverse already exists then return the one stored in cache
-## else, return the already store inverse value
+## else, return the calculated inverse matrix
 
 cacheSolve <- function(input_matrix, ...) {
     ## Return a matrix that is the inverse of 'x'
