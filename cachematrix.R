@@ -5,12 +5,12 @@
 
 ## Write a short comment describing this function
 ## set_default function sets the input matrix to input_matrix variable and inverse variable to null
-## get_matrix returns the matrix stored
-## set_inverse calculates the matrix inverse and stores into inverse variable
-## get_inverse returns the inverse of the matrix
+## get_matrix function returns the matrix stored
+## set_inverse function calculates the matrix inverse and stores into inverse variable
+## get_inverse function returns the inverse of the matrix
 
-## finally a list is returned which consists of 4 objects each of type a function. To call them later
-## on we assign each function a name.
+## finally a list is returned which consists of 4 objects each of type function. To call them later
+## on we assign each function a name. 
 
 makeCacheMatrix <- function(input_matrix = matrix()) {
     
@@ -42,8 +42,8 @@ makeCacheMatrix <- function(input_matrix = matrix()) {
 ## Write a short comment describing this function
 
 ## takes a matrix as input. Calculates an inverse and store it. 
-## if the inverse already exists then return the one store in cache
-## else, return the calculated value
+## if the inverse already exists then return the one stored in cache
+## else, return the already store inverse value
 
 cacheSolve <- function(input_matrix, ...) {
     ## Return a matrix that is the inverse of 'x'
